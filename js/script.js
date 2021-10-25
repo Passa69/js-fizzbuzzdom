@@ -6,7 +6,6 @@ for (let i = 1; i < 1000; i++) {
     let square = document.createElement("div");
     square.classList.add("square");
     square.append(i);
-    squareContainer.append(square);
 
     // condizioni
     if (i % 3 == 0 && i % 5 == 0) {
@@ -21,4 +20,6 @@ for (let i = 1; i < 1000; i++) {
         square.classList.add("square5");
         square.replaceChildren("buzz");
     }
+
+    squareContainer.append(square);
 }
