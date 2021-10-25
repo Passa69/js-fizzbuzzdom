@@ -35,13 +35,31 @@ body {
 }
 
 .square3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
     background-color: #0bd6a1;
 }
 
 .square5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
     background-color: #ffd166;
 }
 
 .square15 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
     background-color: #f0466f;
 }
