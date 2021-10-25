@@ -4,3 +4,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #083b4c;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 60px;
+}
