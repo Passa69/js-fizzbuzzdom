@@ -28,7 +28,9 @@ body {
 }
 
 .square {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* debug */
     height: 50px;
     width: 50px;
