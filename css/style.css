@@ -21,19 +21,15 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     margin: 20px auto;
-    width: 70%;
-    /* debug */
-    height: 500px;
-    background-color: tomato;
+    width: 60%;
 }
 
 .square {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* debug */
-    height: 50px;
-    width: 50px;
-    background-color: royalblue;
-    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: #1389b2;
 }
