@@ -9,16 +9,16 @@ for (let i = 1; i < 1000; i++) {
     squareContainer.append(square);
 
     // condizioni
-    if (i % 3 == 0) {
+    if (i % 3 == 0 && i % 5 == 0) {
+        square.classList.add("square15");
+        square.append("fizzbuzz");
+
+    } else if (i % 3 == 0) {
         square.classList.add("square3");
         square.append("fizz");
 
     } else if (i % 5 == 0) {
         square.classList.add("square5");
         square.append("buzz");
-
-    } else if (i % 3 == 0 && i % 5 == 0) {
-        square.classList.add("square15");
-        square.append("fizzbuzz");
     }
 }
