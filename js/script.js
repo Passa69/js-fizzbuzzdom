@@ -17,7 +17,7 @@ for (let i = 1; i < 1000; i++) {
         square.classList.add("square5");
         square.append("buzz");
 
-    } else if (i % 15 == 0) {
+    } else if (i % 3 == 0 && i % 5 == 0) {
         square.classList.add("square15");
         square.append("fizzbuzz");
     }
